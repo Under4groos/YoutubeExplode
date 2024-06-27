@@ -1,0 +1,99 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net7.0</TargetFrameworks>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageIcon>favicon.png</PackageIcon>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NamespaceDummies.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net50\DynamicallyAccessedMembersAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net50\DynamicallyAccessedMemberTypes.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net50\HttpClient.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net50\HttpContent.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net50\IsExternalInit.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net50\ModuleInitializerAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net50\Process.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net50\SkipLocalsInitAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net50\Type.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net60\EnumerableExtensions.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net60\String.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net60\Task.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net70\CompilerFeatureRequiredAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net70\EnumerableExtensions.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net70\LibraryImportAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net70\RequiredMemberAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net70\SetsRequiredMembersAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net70\Stream.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net70\StringMarshalling.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net70\StringSyntaxAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\Net80\CancellationTokenSource.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore10\AggregateException.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore10\EnumerableExtensions.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore10\ExtensionAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore10\OSPlatform.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore10\RuntimeInformation.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore10\Stream.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore10\TaskCompletionSource.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore20\CollectionExtensions.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore20\DictionaryEntry.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore20\EnumerableExtensions.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore20\ExcludeFromCodeCoverageAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore20\KeyValuePair.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore20\MatchCollection.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore20\String.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore20\TupleElementNamesAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore20\Type.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore20\ValueTuple.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore21\HashCode.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore21\Random.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore21\Stream.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore21\StreamReader.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore21\StreamWriter.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore21\String.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore30\AllowNullAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore30\CallerArgumentExpressionAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore30\DisallowNullAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore30\DoesNotReturnAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore30\DoesNotReturnIfAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore30\EnumerableExtensions.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore30\Index.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore30\MaybeNullAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore30\MaybeNullWhenAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore30\MemberNotNullAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore30\MemberNotNullWhenAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore30\NotNullAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore30\NotNullIfNotNullAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore30\NotNullWhenAttribute.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore30\Process.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore30\Range.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\NetCore30\RuntimeHelpers.cs" />
+    <Compile Remove="C:\Users\UnderKo\.nuget\packages\polyshim\1.10.0\contentFiles\cs\any\PolyShim\PolyfillExtensions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../favicon.png" Pack="true" PackagePath="" Visible="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="1.1.2" />
+    <PackageReference Include="CSharpier.MsBuild" Version="0.27.3" PrivateAssets="all" />
+    <PackageReference Include="Lazy.Fody" Version="1.11.0" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" Condition="'$(TargetFramework)' == 'netstandard2.0' OR '$(TargetFramework)' == 'net461'" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="all" />
+    <PackageReference Include="PolyShim" Version="1.10.0" PrivateAssets="all" />
+    <PackageReference Include="System.Memory" Version="4.5.5" Condition="'$(TargetFramework)' == 'netstandard2.0' OR '$(TargetFramework)' == 'net461'" />
+    <PackageReference Include="System.Text.Json" Version="8.0.2" Condition="'$(TargetFramework)' == 'netstandard2.0' OR '$(TargetFramework)' == 'netstandard2.1' OR '$(TargetFramework)' == 'net461'" />
+    <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" Condition="'$(TargetFramework)' == 'netstandard2.0' OR '$(TargetFramework)' == 'net461'" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFrameworkIdentifier)' == '.NETFramework'">
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+
+</Project>
